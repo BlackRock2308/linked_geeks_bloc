@@ -1,0 +1,228 @@
+
+.single-page-header {
+  background-image: url("../../../assets/img/groot1.jpg");
+  background-size: cover;
+  padding: 210px 0 70px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.single-page-header li{
+  list-style-type: none;
+}
+.single-page-header li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content h3 a {
+  text-decoration: none;
+}
+ 
+
+.single-page-header:before {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.post-item {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.post-item .content {
+  padding: 20px;
+}
+
+.post-item .content h3 a {
+  color: #000;
+}
+
+.post-item .content p {
+  color: #757575;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.post-item .content .btn-main {
+  padding: 12px 25px;
+  margin: 15px 0;
+}
+
+.btn-main {
+  background: #28ABE3;
+  border: 1px solid #28ABE3;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.btn-main:hover {
+  color: #fff;
+}
+
+main.posts-listing {
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  main.posts-listing .post {
+    margin-bottom: 50px;
+  }
+  
+  main.posts-listing .post-footer {
+    font-size: 0.8em;
+  }
+  
+  .widget.search .form-group {
+    position: relative;
+  }
+  
+  .widget.search input {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background: none;
+  }
+  
+  .widget.search input::-moz-placeholder {
+    color: #aaa;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .widget.search input::-webkit-input-placeholder {
+    color: #aaa;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .widget.search input:-ms-input-placeholder {
+    color: #aaa;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .widget.search .submit {
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    background: none;
+    border: none;
+    color: #555;
+    font-size: 0.9em;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .widget.latest-posts a {
+    display: block;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .widget.latest-posts a:hover {
+    color: #000;
+  }
+  
+  .widget.latest-posts .image {
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .widget.latest-posts .item {
+    margin-bottom: 20px;
+  }
+  
+  .widget.latest-posts strong {
+    font-size: 0.95em;
+    display: block;
+    line-height: 1em;
+  }
+  
+  .widget.latest-posts .views,
+  .widget.latest-posts .comments {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #bbb;
+    margin-top: 10px;
+  }
+  
+  .widget.latest-posts .views i,
+  .widget.latest-posts .comments i {
+    margin-right: 5px;
+  }
+  
+  .widget.latest-posts .views::after,
+  .widget.latest-posts .comments::after {
+    content: '|';
+    display: inline-block;
+    margin: 0 7px;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  .widget.latest-posts .comments::after {
+    display: none;
+  }
+  
+  .widget.categories .item {
+    background: #fafafa;
+    padding: 10px;
+    color: #777;
+    font-weight: 700;
+  }
+  
+  .widget.categories .item:nth-of-type(2n+2) {
+    background: none;
+  }
+  
+  .widget.categories .item a {
+    color: inherit;
+    font-size: 0.95em;
+  }
+  
+  .widget.categories .item a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .widget.categories .item span {
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  
+  .widget.tags .tag {
+    padding: 5px 25px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    color: #777;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  
+  .widget.tags .tag:hover {
+    background: #2b90d9;
+    color: #fff;
+    border-color: #2b90d9;
+  }

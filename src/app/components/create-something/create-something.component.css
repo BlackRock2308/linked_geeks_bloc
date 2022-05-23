@@ -1,0 +1,28 @@
+.section {
+  padding: 100px 0;
+}
+
+.call-to-action {
+    background: url("../../../assets/img/code.jpg") top center;
+    background-size: cover;
+    background-position: center center;  
+    padding: 100px 0;
+    color: #fff;
+    
+    /* padding: 100px 0;
+    background: url("../../../assets/img/groot.JPG");
+    background-size: cover;
+    color: #fff; */
+  }
+  
+  .call-to-action h2 {
+    line-height: 1.5;
+  }
+  
+  .call-to-action p {
+    color: #fff;
+  }
+  
+  .call-to-action .btn-main {
+    margin-top: 20px;
+  }
